@@ -28,4 +28,10 @@ module.exports = {
       argsIgnorePattern: "^_",
       varsIgnorePattern: "^_" }],
   },
+ "node/no-unsupported-features/es-syntax": [
+      "warn",
+      {
+        ignores: ["modules"],
+      },
+    ],
 };
